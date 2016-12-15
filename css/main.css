@@ -1725,9 +1725,9 @@ p { font-family: 'Fira Sans', Helvetica, sans-serif; -webkit-margin-before: 0; -
 
 .vk:hover { background-position: -100px -100px; }
 
-.twitter { background-position: -200px 0; }
+.github { margin: 0 0 1px 1px; background-position: -200px 0; }
 
-.twitter:hover { background-position: -200px -100px; }
+.github:hover { background-position: -200px -100px; }
 
 .wrapper-start { width: 100%; height: 100%; background: url("../img/bg/bg.png"); display: table; text-align: center; }
 
@@ -1796,8 +1796,6 @@ p { font-family: 'Fira Sans', Helvetica, sans-serif; -webkit-margin-before: 0; -
 .career__year { position: absolute; top: 50%; right: 100%; margin-top: -14px; margin-right: 35px; font-size: 14px; color: #727272; line-height: 28px; z-index: 10; }
 
 .career__year::after { content: ""; display: block; width: 10px; height: 10px; border-radius: 50%; background: #33c1e3; position: absolute; right: -25px; top: 50%; margin-top: -10px; border: 5px solid #f6f6f6; }
-
-.GITHUB { color: #9c9c9c; }
 
 .sidebar.portf { margin-right: 0; }
 
