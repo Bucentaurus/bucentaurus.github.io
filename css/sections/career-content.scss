@@ -15,6 +15,11 @@
   margin-left: 20px;
 }
 
+.career-title
+{
+  line-height: 1.1;
+  -webkit-margin-after: 25px;
+}
 .career__left
 {
   float: left;
@@ -58,6 +63,7 @@
   padding-left: 70px;
 }
 
+
 .career__item:hover .career__block
 {
   background: $blue;
@@ -93,7 +99,7 @@
   padding: 20px;
   text-align: left;
   position: relative;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 
   &::after, &::before
   {
@@ -129,15 +135,16 @@
 {
   font-size: 21px;
   color: #5a5a5a;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .career__occup, .career__time
 {
   font-weight: 300;
   color: #727272;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
+
 
 .career__time
 {
