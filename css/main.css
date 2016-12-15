@@ -1703,7 +1703,7 @@ p { font-family: 'Fira Sans', Helvetica, sans-serif; -webkit-margin-before: 0; -
 
 .download { text-align: right; }
 
-.download-link, .enter-button { box-sizing: border-box; font-family: 'Open Sans', Helvetica, sans-serif; display: inline-block; width: 170px; padding: 6px 13px 0 0; height: 40px; border: 2px solid #e85f61; font-size: 14px; border-radius: 200px 200px 200px 200px; text-decoration: none; font-weight: bold; color: #e85f61; }
+.download-link, .enter-button { box-sizing: border-box; font-family: 'Open Sans', Helvetica, sans-serif; display: inline-block; width: 173px; padding: 6px 15px 0 0; height: 40px; border: 2px solid #e85f61; font-size: 14px; border-radius: 200px 200px 200px 200px; text-decoration: none; font-weight: bold; color: #e85f61; }
 
 .download-link:hover, .enter-button:hover { color: #fff; background: #e85f61; }
 
@@ -1887,6 +1887,7 @@ p { font-family: 'Fira Sans', Helvetica, sans-serif; -webkit-margin-before: 0; -
   .menu-link { font-size: 14px; margin-right: 10px; }
   .menu-link .icon { display: none; }
   .big-avatar { width: 140px; height: 140px; }
+  .about-description { overflow: visible; height: auto; }
   .portfolio-title { display: block; text-align: center; }
   .portfolio__list { text-align: center; }
   .portfolio__item { width: 100%; }
