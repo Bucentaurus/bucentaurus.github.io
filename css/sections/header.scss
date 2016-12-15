@@ -1,0 +1,164 @@
+.header
+{
+	background: #fff;
+	height: 80px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.header-left
+{
+	width: 50%;
+	height: 80px;
+	margin-left: 0;
+	float: left;
+}
+
+.header-right
+{
+	text-align: right;
+	width: 50%;
+	height: 80px;
+	float: right;
+}
+
+.user-info
+{
+	@extend %clearfix;
+}
+
+.user-avatar
+{
+	float: left;
+	margin-top: 7px;
+	margin-right: 15px;
+}
+
+.name
+{
+	font-weight: 300;
+	display: inline-block;
+	margin-top: 28px;
+}
+
+.avatar
+{
+	width: 60px;
+	height: 60px;
+  border: 3px solid rgb(215, 215, 215);
+	border-radius: 50%;
+}
+
+.contacts
+{
+	display: inline-block;
+	margin-top: 28px;
+	text-align: right;
+	position: relative;
+
+	&:hover
+	{
+
+		.contacts-link
+		{
+			color: $coral;
+			background: url('../img/decor/bottom-line-active.png') 0 bottom repeat-x;
+		}
+
+		.dropdown
+		{
+			display: block;
+		}
+	}
+}
+
+.contacts-link
+{
+	font-weight: bold;
+	text-decoration: none;
+	color: #32c3e5;
+  padding-bottom: 3px;
+	background: url('../img/decor/bottom-line.png') 0 bottom repeat-x;
+}
+
+.dropdown
+{
+	width: auto;
+	height: auto;
+	border: 1px solid #dedede;
+	border-radius: 10px;
+	position: absolute;
+	top: 100%;
+	left: 19%;
+	margin-top: 15px;
+	transform: translateX(-50%);
+	background: #fff;
+	z-index: 10;
+	display: none;
+
+	&::before
+	{
+		content: "";
+		display: block;
+		height: 18px;
+		left: 0;
+		right: 0;
+		top: -17px;
+		z-index: 10;
+		position: absolute;
+	}
+}
+
+.triangle
+{
+	border-top: 0px solid transparent;
+	border-right: 10px solid transparent;
+	border-left: 10px solid transparent;
+	border-bottom: 10px solid black;
+	width: 0;
+	height: 0;
+	position: absolute;
+	bottom: 100%;
+	left: 65%;
+	margin-left: -10px;
+
+	&::before
+	{
+		content: "";
+		display: block;
+		border-top: 0px solid transparent;
+		border-right: 10px solid transparent;
+		border-left: 10px solid transparent;
+		border-bottom: 10px solid #fff;
+		width: 0;
+		height: 0;
+		position: absolute;
+		left: -10px;
+	}
+
+}
+
+.contacts__list
+{
+	margin: 5px 20px;
+	text-align: left;
+}
+
+
+.contacts__list-item-link
+{
+	white-space: nowrap;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 200;
+	color: $dark-gray;
+	line-height: 2em;
+}
+
+.contacts__dropdown-icon
+{
+	margin-right: 5px;
+	color: $blue;
+}

@@ -1,0 +1,191 @@
+@media screen and (max-width: 768px)
+{
+  .container
+  {
+    width: 480px;
+  }
+
+  .header-right
+  {
+    position: static;
+  }
+
+  .user-info
+  {
+    display: table;
+  }
+
+  .name
+  {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .contacts
+  {
+    height: 100%;
+    margin-top: 0;
+    display: block;
+    text-align: none;
+
+    &:hover
+    {
+      .contacts-link
+      {
+      background: url('../img/icons/phone-active.png') center center no-repeat;
+    }
+    }
+
+  }
+
+  .contacts-link
+  {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    background: url('../img/icons/phone.png') center center no-repeat;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    font-size: 0;
+    vertical-align: middle;
+  }
+
+  .dropdown
+  {
+    left: 48%;
+    margin-top: -12px;
+  }
+
+  .triangle
+  {
+    margin-left: 35px;
+  }
+
+  .content
+  {
+    margin-bottom: 38px;
+  }
+
+  .about-left, .about-right
+  {
+    float: none;
+    width: 100%;
+  }
+
+
+  .about-pic
+  {
+    text-align: center;
+  }
+
+  .about-title
+  {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .menu-items
+  {
+    text-align: center;
+  }
+
+  .download
+  {
+    text-align: center;
+  }
+
+  .download-link
+  {
+    text-align: right;
+  }
+
+  .footer
+  {
+    height: 95px;
+    margin-top: -95px;
+    padding-top: 2px;
+  }
+
+  .footer-left
+  {
+    float: none;
+  }
+
+  .footer-left, .footer-right, .socials
+  {
+    width: 100%;
+    text-align: center;
+  }
+
+  .wrapper:after
+  {
+    height: 95px;
+  }
+
+  .career__left, .career__right
+  {
+    width: 100%;
+    float: none;
+  }
+
+  .career__left
+  {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .career__img-item
+  {
+    display: inline-block;
+  }
+
+  .career__item
+  {
+    padding: 0;
+  }
+
+  .career__block
+  {
+    display: block;
+    width: 100%;
+
+    &::after, &::before
+    {
+      display: none;
+    }
+  }
+
+  .career__title
+  {
+    font-size: 18px;
+  }
+
+  .career__occup, .career__time
+  {
+  font-size: 16px;
+  }
+
+  .career__year
+  {
+    display: none;
+  }
+
+
+  .portfolio
+  {
+    width: auto;
+  }
+
+  .portfolio__item
+  {
+    margin-left: 0;
+    margin-right: 0;
+    width: 230px;
+
+    &:nth-child(odd)
+    {
+      margin-right: 20px;
+    }
+  }
+};

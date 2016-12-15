@@ -1,0 +1,96 @@
+@media screen and (max-width: 992px)
+{
+  .container
+  {
+    width: 750px;
+  }
+
+  .dropdown
+  {
+    left: 0;
+  }
+
+
+  .triangle
+  {
+    left: 75%;
+  }
+
+  .sidebar, .about-content, .career-content, .portfolio-content
+  {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .sidebar
+  {
+    margin-bottom: 35px;
+  }
+
+  .menu-item
+  {
+    display: inline-block;
+    vertical-align: middle;;
+  }
+
+  .menu-link
+  {
+    text-align: left;
+    border: none;
+    padding-right: 0;
+    margin-right: 25px;
+  }
+
+  .selected-link
+  {
+    border: none;
+  }
+
+  .about-left
+  {
+    width: 30%;
+    margin-right: 0;
+  }
+
+  .big-avatar
+  {
+    width: 165px;
+    height: 165px;
+  }
+
+  .about-right
+  {
+    width: 70%;
+  }
+
+  .sidebar.portf
+  {
+    margin-bottom: 20px;
+  }
+
+  .portfolio-title
+  {
+    margin-bottom: 25px;
+  }
+
+  .portfolio__item
+  {
+    margin-left: 0;
+    margin-right: 20px;
+  }
+
+  .portfolio-title
+  {
+    margin-left: 0;
+  }
+
+  .portfolio__list
+  {
+    &:first-child
+    {
+      margin-left: 0;
+    }
+  }
+
+};

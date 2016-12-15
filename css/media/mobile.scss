@@ -1,0 +1,68 @@
+@media screen and (max-width: 480px)
+{
+  .container
+  {
+    width: 95%;
+  }
+
+  .header-left
+  {
+    width: 80%;
+  }
+
+  .header-right
+  {
+    width: 20%;
+  }
+
+  .name
+  {
+    max-width: 100px;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  .dropdown
+  {
+    left: -100%;
+  }
+
+  .menu-link
+  {
+    font-size: 14px;
+    margin-right: 10px;
+  }
+
+  .menu-link .icon
+  {
+    display: none;
+  }
+
+  .big-avatar
+  {
+    width: 140px;
+    height: 140px;
+  }
+
+  .portfolio-title
+  {
+    display: block;
+    text-align: center;
+  }
+
+  .portfolio__list
+  {
+    text-align: center;
+  }
+
+  .portfolio__item
+  {
+    width: 100%;
+
+    &:nth-child(odd)
+    {
+      margin-right: 0;
+    }
+  }
+
+};

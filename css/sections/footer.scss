@@ -1,0 +1,73 @@
+.footer
+{
+  height: 50px;
+  background: #414141;
+  margin-top: -50px;
+	box-sizing: border-box;
+}
+
+.footer-left
+{
+  font-weight: 200;
+	margin-top: 15px;
+	font-size: 14px;;
+	color: #878787;
+	float: left;
+}
+
+.copyright-link
+{
+  position: relative;
+  color: #878787;
+}
+
+
+.socials
+{
+	text-align: right;
+}
+
+.socials__link
+{
+  text-decoration: none;
+}
+
+
+.link-item
+{
+    position: relative;
+    margin-top: 10px;
+    margin-right: 1px;
+    display: inline-block;
+    width: 31px;
+    height: 30px;
+    background: url('../img/icons/bg-sprite.png') 0 0 no-repeat;
+}
+
+.facebook
+{
+  &:hover
+  {
+    background-position: 0 -100px;
+  }
+}
+
+.vk
+{
+  background-position: -100px 0;
+
+  &:hover
+  {
+    background-position: -100px -100px;
+  }
+}
+
+.twitter
+{
+  background-position: -200px 0;
+
+  &:hover
+  {
+    background-position: -200px -100px;
+  }
+}

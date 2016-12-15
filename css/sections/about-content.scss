@@ -1,0 +1,136 @@
+.content
+{
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+
+.sidebar
+{
+	width: 220px;
+	float: left;
+	margin-right: 60px;
+//	margin-top: 8px;
+}
+
+.menu-items
+{
+	vertical-align: middle;
+}
+
+.menu-item
+{
+	height: 41px;
+	line-height: 41px;
+	margin-bottom: 4px;
+	text-align: right;
+}
+
+.menu-link
+{
+	display: block;
+  border-right: 6px solid #f6f6f6;
+	padding-right: 24px;
+	text-decoration: none;
+	color: #414141;
+}
+
+.icon
+{
+	margin-right: 9px;
+}
+
+
+.menu-link:hover
+{
+	color: $blue;
+}
+
+.selected-link
+{
+	color: $blue;
+  border-right: 6px solid $blue;
+}
+
+.about
+{
+	@extend %clearfix;
+}
+
+
+.about-content
+{
+	margin-top: 0;
+	width: 100%;
+}
+
+.big-avatar
+{
+	width: 220px;
+	height: 220px;
+	border-radius: 50%;
+	border: 3px solid white;
+}
+
+.about-left
+{
+	float: left;
+	margin-right: 55px;
+}
+
+.about-right
+{
+	float: left;
+	text-align: left;
+	width: 379px;
+	overflow: hidden;
+	position: relative;
+}
+
+.about-title
+{
+	line-height: 34px;
+	margin-after: 20px;
+}
+
+.about-description
+{
+	font-weight: 200;
+	height: 320px;
+	color: #646464;
+	overflow: auto;
+	margin-bottom: 58px;
+}
+
+.about-description>p
+{
+	margin-bottom: 4px;
+	color: #646464;
+	font-weight: 200;
+}
+
+.download
+{
+	text-align: right;
+}
+
+.download-link
+{
+	box-sizing: border-box;
+	font-family: 'Open Sans', Helvetica, sans-serif;;
+	display: inline-block;
+	width: 170px;
+	padding: 6px 13px 0 0;
+	height: 40px;
+	border: 2px solid $coral;
+	font-size: 14px;
+	border-radius: 200px 200px 200px 200px;
+	text-decoration: none;
+	font-weight: bold;
+	color: $coral;
+
+	&:hover
+	{
+		color: #fff;
+		background: $coral;
+	}
+}
